@@ -45,7 +45,7 @@ Since the Box2D physics engine requires compiling C++ libraries locally on macOS
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/AkshatGarg2005/Autonomous-Lunar-Landing-using-Proximal-Policy-Optimization
+git clone https://github.com/Deeptig9138/Autonomous-Lunar-Landing-using-Proximal-Policy-Optimization
 cd LunarLander-PPO
 
 ```
@@ -99,7 +99,6 @@ Run the base optimization loop to generate experience trajectories up to 500,000
 
 ```bash
 python train.py
-
 ```
 
 ### 2. Quantitative Evaluation
@@ -108,7 +107,6 @@ Run the model over multiple consecutive episodes to extract performance metrics:
 
 ```bash
 python evaluate.py
-
 ```
 
 ### 3. Visual Human Rendering
@@ -117,7 +115,6 @@ Launch a real-time simulator window showing the trained weights controlling the 
 
 ```bash
 python test.py
-
 ```
 
 ### 4. Automated Video Export
@@ -126,7 +123,6 @@ Generate unified `.mp4` recordings of completed flights using the wrapper interf
 
 ```bash
 python record_video.py
-
 ```
 
 ### 5. Learning Curve Plotting
@@ -135,7 +131,6 @@ Generate the localized graph parsing the training history logs:
 
 ```bash
 python plot_training.py
-
 ```
 
 ---
